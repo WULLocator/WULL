@@ -1,10 +1,10 @@
 
 document.getElementById('btn1').addEventListener('click', function() {
-    window.location.href = 'eaton.html';
+    window.location.href = 'building1.html';
 });
 
 document.getElementById('btn2').addEventListener('click', function() {
-    window.location.href = 'building2.html';
+    window.location.href = 'eaton.html';
 });
 
 document.getElementById('btn3').addEventListener('click', function() {
