@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Based Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="map-container">
+        <img src="campus_map_temp.png" alt="Campus Map" class="map-image">
+        <div class="button" data-type="both" data-first="yes" data-accessable="yes" id="btn1" style="background-image: url('temp_button.png');"></div>
+        <div class="button" data-type="male" data-first="no" data-accessable="no" id="btn2" style="background-image: url('temp_button.png');"></div>
+        <div class="button" data-type="female" data-first="yes" data-accessable="yes" id="btn3" style="background-image: url('temp_button.png');"></div>
+        <div class="button" data-type="male" data-first="yes" data-accessable="no" id="btn4" style="background-image: url('temp_button.png');"></div>    
+        <div class="button" data-type="both" data-first="no" data-accessable="yes" id="btn5" style="background-image: url('temp_button.png');"></div>    
+    
+    </div>
+    
+    <!-- Selector Button and Menu with filters -->
+    <button id="selectorBtn" class="selector-button">⚙</button>
+    <div id="selectorMenu" class="selector-menu">
+        <p>Gendered Bathroom:</p>
+        <label><input type="checkbox" id="maleCheckbox" value="male"> Male</label>
+        <label><input type="checkbox" id="femaleCheckbox" value="female"> Female</label>
+        <label><input type="checkbox" id="bothCheckbox" value="both"> All Gender</label>
+        <p>First Floor Bathrooms:</p>
+        <label><input type="checkbox" id="firstYesCheckbox" value="yes"> Yes</label>
+        <label><input type="checkbox" id="firstNoCheckbox" value="no"> No</label>
+        <p>Elevator Accessable:</p>
+        <label><input type="checkbox" id="accessibleYesCheckbox" value="yes"> Yes</label>
+        <label><input type="checkbox" id="accessibleNoCheckbox" value="no"> No</label>
+        <button id="applyFilters">Apply Filters</button>
+    </div>
+</body>
+
+</html>
