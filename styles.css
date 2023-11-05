@@ -3,7 +3,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     display: flex;
     justify-content: center;
@@ -15,12 +15,14 @@ body {
     position: relative;
     display: inline-block;
     max-width: 100%;  /* Ensure it doesn't overflow the viewport */
+    z-index: 1;
 }
 
 .map-image {
     max-width: 100%;  /* Responsive image */
     display: block;
     margin: auto;  /* Center the image */
+    z-index: 1;
 }
 
 .button {
@@ -37,8 +39,8 @@ body {
 }
 
 #btn1 {
-    top: 23%;
-    left: 15%;
+    top: 3%;
+    left: 78%;
 }
 
 #btn2 {
@@ -129,3 +131,18 @@ body {
 .selector-menu input[type="checkbox"] {
     margin-right: 5px;
 }
+
+/* @keyframes raindropFall {
+    to {
+        transform: translateY(calc(100vh + 50px));
+    }
+}
+
+.raindrop {
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background-image: url(campus_map_temp.png);
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;  /* This gives the teardrop shape
+    animation: raindropFall linear infinite;
+} */

@@ -5,30 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floor Plan</title>
-    <link rel="stylesheet" href="eaton/eatonstyles.css">
+    <link rel="stylesheet" href="smulton/smultonstyles.css">
 </head>
 <body>
     <div id="floorPlan" style="position: relative;">
       <div class="floor" id="floor1">
-          <img src="eaton/eaton1.png" alt="First Floor Plan" style="width: 100%; height: auto;">
+          <img src="smulton/smulton1.png" alt="First Floor Plan" style="width: 100%; height: auto;">
           <!-- Highlighters for the first floor -->
-          <!-- There are none.-->
+          <div class="highlighter highlighter1" data-type="male" data-first="yes" data-accessible="yes"></div>
+          <div class="highlighter highlighter2" data-type="both" data-first="yes" data-accessible="yes"></div>
       </div>
       <div class="floor" id="floor2" style="display: none;">
-          <img src="eaton/eaton2.png" alt="Second Floor Plan" style="width: 100%; height: auto;">
+          <img src="smulton/smulton2.png" alt="Second Floor Plan" style="width: 100%; height: auto;">
           <!-- Highlighters for the second floor -->
-          <div class="highlighter highlighter1" data-type="male" data-first="no" data-accessible="yes"></div>
-          <div class="highlighter highlighter2" data-type="both" data-first="no" data-accessible="yes"></div>
+          <div class="highlighter highlighter3" data-type="both" data-first="no" data-accessible="yes"></div>
+          <div class="highlighter highlighter4" data-type="female" data-first="no" data-accessible="yes"></div>
       </div>
       <div class="floor" id="floor3" style="display: none;">
-        <img src="eaton/eaton3.png" alt="Third Floor Plan" style="width: 100%; height: auto;">
         <!-- Highlighters for the second floor -->
-      </div>
-      <div class="floor" id="floor4" style="display: none;">
-        <img src="eaton/eaton4.png" alt="Fourth Floor Plan" style="width: 100%; height: auto;">
-        <!-- Highlighters for the second floor -->
-        <div class="highlighter highlighter3" data-type="both" data-first="no" data-accessible="yes"></div>
-        <div class="highlighter highlighter4" data-type="female" data-first="no" data-accessible="yes"></div>
+        <img src="smulton/smulton3.png" alt="Third Floor Plan" style="width: 100%; height: auto;">
+        <div class="highlighter highlighter5" data-type="male" data-first="no" data-accessible="yes"></div>
+        <div class="highlighter highlighter6" data-type="both" data-first="no" data-accessible="yes"></div>
       </div>
     </div>
 
@@ -39,7 +36,7 @@
 
     <div id="backArrow" style="position: absolute; top: 10px; left: 10px;">
       <a href="index.html">
-          <img src="eaton/back_arrow.png" alt="Back" style="width: 40px; height: 40px;">
+          <img src="ford/back_arrow.png" alt="Back" style="width: 40px; height: 40px;">
       </a>
     </div>
 
@@ -60,6 +57,6 @@
         <label><input type="checkbox" id="accessibleNoCheckbox" value="no"> No</label>
         <button id="applyFilters">Apply Filters</button>
     </div>
-    <script src="eaton/eatonscript.js"></script>
+    <script src="smulton/smultonscript.js"></script>
 </body>
 </html>
