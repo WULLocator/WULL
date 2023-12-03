@@ -12,11 +12,51 @@ document.getElementById('btn3').addEventListener('click', function() {
 });
 
 document.getElementById('btn4').addEventListener('click', function() {
-    window.location.href = 'building4.html';
+    window.location.href = 'putnam.html';
 });
 
 document.getElementById('btn5').addEventListener('click', function() {
-    window.location.href = 'building5.html';
+    window.location.href = 'finearts.html';
+});
+
+document.getElementById('btn6').addEventListener('click', function() {
+    window.location.href = 'colins.html';
+});
+
+document.getElementById('btn7').addEventListener('click', function() {
+    window.location.href = 'olin.html';
+});
+
+document.getElementById('btn8').addEventListener('click', function() {
+    window.location.href = 'art.html';
+});
+
+document.getElementById('btn9').addEventListener('click', function() {
+    window.location.href = 'waller.html';
+});
+
+document.getElementById('btn10').addEventListener('click', function() {
+    window.location.href = 'gatke.html';
+});
+
+document.getElementById('btn11').addEventListener('click', function() {
+    window.location.href = 'montag.html';
+});
+
+document.getElementById('btn12').addEventListener('click', function() {
+    window.location.href = 'hatfield.html';
+});
+
+document.getElementById('btn13').addEventListener('click', function() {
+    window.location.href = 'sparks.html';
+});
+
+document.getElementById('btn14').addEventListener('click', function() {
+    window.location.href = 'rogers.html';
+});
+
+document.getElementById('btn15').addEventListener('click', function() {
+    window.location.href = 'goudy.html';
 });
 
 // This function saves the state of a checkbox to local storage

@@ -49,19 +49,70 @@ body {
 }
 
 #btn3 {
-    top: 14.5%;
-    left: 34%;
+    top: 20%;
+    left: 69%;
 }
 
 #btn4 {
-    top: 13%;
-    left: 62%;
+    top: 75%;
+    left: 40%;
 }
 
 #btn5 {
-    top: 23%;
-    left: 69%;
+    top: 50%;
+    left: 43%;
 }
+
+#btn6 {
+    top: 14%;
+    left: 24%;
+}
+
+#btn7 {
+    top: 15%;
+    left: 9%;
+}
+
+#btn8 {
+    top: 4%;
+    left: 10%;
+}
+
+#btn9 {
+    top: 16%;
+    left: 34%;
+}
+
+#btn10 {
+    top: 3%;
+    left: 93%;
+}
+
+#btn11 {
+    top: 26%;
+    left: 86%;
+}
+
+#btn12 {
+    top: 65%;
+    left: 64%;
+}
+
+#btn13 {
+    top: 78%;
+    left: 83%;
+}
+
+#btn14 {
+    top: 43%;
+    left: 57%;
+}
+
+#btn15 {
+    top: 63%;
+    left: 18%;
+}
+
 
 .selector-button {
     position: absolute;
