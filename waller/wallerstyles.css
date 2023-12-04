@@ -111,47 +111,74 @@ body {
 }
 
 .highlighter1 {
-    top: 27.4%;
-    left: 40.8%;
-    width: 6%;
-    height: 7.5%;
+    top: 39.3%;
+    left: 25.8%;
+    width: 3.4%;
+    height: 4.8%;
 }
 
 .highlighter2 {
-    top: 65%;
-    left: 40.8%;
-    width: 6%;
-    height: 7.5%;
+    top: 39.3%;
+    left: 54.1%;
+    width: 3.4%;
+    height: 4.8%;
 }
 
 .highlighter3 {
-    top: 27%;
-    left: 41.4%;
-    width: 6.5%;
-    height: 5.5%;
+    top: 40.6%;
+    left: 28.5%;
+    width: 3.7%;
+    height: 6%;
 }
 
 .highlighter4 {
-    top: 63%;
-    left: 41.4%;
-    width: 6.5%;
-    height: 5.5%;
+    top: 40.6%;
+    left: 56.7%;
+    width: 3.7%;
+    height: 6%;
 }
 
 .highlighter5 {
-    top: 31%;
-    left: 38.7%;
-    width: 9.5%;
-    height: 7%;
+    top: 50.4%;
+    left: 46.9%;
+    width: 3%;
+    height: 6%;
 }
 
 .highlighter6 {
-    top: 53.4%;
-    left: 38.7%;
-    width: 9.5%;
-    height: 7%;
+    top: 50.4%;
+    left: 50%;
+    width: 3%;
+    height: 6%;
 }
 
+.highlighter7 {
+    top: 42.6%;
+    left: 38.5%;
+    width: 3%;
+    height: 4%;
+}
+
+.highlighter8 {
+    top: 42.6%;
+    left: 50%;
+    width: 3%;
+    height: 4%;
+}
+
+.highlighter9 {
+    top: 43.2%;
+    left: 34.5%;
+    width: 4%;
+    height: 3.5%;
+}
+
+.highlighter10{
+    top: 43.2%;
+    left: 51%;
+    width: 4.4%;
+    height: 3.5%;
+}
 
 #floorNavigation button {
     background-color: #eee;
