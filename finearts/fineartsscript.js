@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });    
     var currentFloor = 1;
-    var totalFloors = 3;
+    var totalFloors = 4;
     var floors = [];
     for (var i = 1; i <= totalFloors; i++) {
         floors.push(document.getElementById("floor" + i));

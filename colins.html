@@ -5,25 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floor Plan</title>
-    <link rel="stylesheet" href="ford/fordstyles.css">
+    <link rel="stylesheet" href="colins/colinstyles.css">
 </head>
 <body>
-    <div id="floorPlan" style="position: relative;">
+    <div id="floorPlan" style="position: absolute;">
       <div class="floor" id="floor1">
-          <img src="ford/ford1.png" alt="First Floor Plan" style="width: 100%; height: auto;">
+          <img src="colins/colin1.png" alt="First Floor Plan" style="width: 90%; height: auto;">
           <!-- Highlighters for the first floor -->
           <div class="highlighter highlighter1" data-type="male" data-first="yes" data-accessible="yes"></div>
           <div class="highlighter highlighter2" data-type="both" data-first="yes" data-accessible="yes"></div>
       </div>
       <div class="floor" id="floor2" style="display: none;">
-          <img src="ford/ford2.png" alt="Second Floor Plan" style="width: 100%; height: auto;">
+          <img src="colins/colin2.png" alt="Second Floor Plan" style="width: 90; height: auto;">
           <!-- Highlighters for the second floor -->
           <div class="highlighter highlighter3" data-type="both" data-first="no" data-accessible="yes"></div>
           <div class="highlighter highlighter4" data-type="female" data-first="no" data-accessible="yes"></div>
       </div>
       <div class="floor" id="floor3" style="display: none;">
         <!-- Highlighters for the second floor -->
-        <img src="ford/ford3.png" alt="Third Floor Plan" style="width: 100%; height: auto;">
+        <img src="colins/colin3.png" alt="Third Floor Plan" style="width: 90%; height: auto;">
+        <div class="highlighter highlighter5" data-type="male" data-first="no" data-accessible="yes"></div>
+        <div class="highlighter highlighter6" data-type="both" data-first="no" data-accessible="yes"></div>
+      </div>
+      <div class="floor" id="floor4" style="display: none;">
+        <!-- Highlighters for the second floor -->
+        <img src="colins/colin4.png" alt="Fourth Floor Plan" style="width: 90%; height: auto;">
         <div class="highlighter highlighter5" data-type="male" data-first="no" data-accessible="yes"></div>
         <div class="highlighter highlighter6" data-type="both" data-first="no" data-accessible="yes"></div>
       </div>
@@ -57,6 +63,6 @@
         <label><input type="checkbox" id="accessibleNoCheckbox" value="no"> No</label>
         <button id="applyFilters">Apply Filters</button>
     </div>
-    <script src="ford/fordscript.js"></script>
+    <script src="colins/colinscript.js"></script>
 </body>
 </html>

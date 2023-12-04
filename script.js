@@ -39,21 +39,10 @@ document.getElementById('btn10').addEventListener('click', function() {
     window.location.href = 'gatke.html';
 });
 
-document.getElementById('btn11').addEventListener('click', function() {
-    window.location.href = 'montag.html';
-});
-
 document.getElementById('btn12').addEventListener('click', function() {
     window.location.href = 'hatfield.html';
 });
 
-document.getElementById('btn13').addEventListener('click', function() {
-    window.location.href = 'sparks.html';
-});
-
-document.getElementById('btn14').addEventListener('click', function() {
-    window.location.href = 'rogers.html';
-});
 
 document.getElementById('btn15').addEventListener('click', function() {
     window.location.href = 'goudy.html';
